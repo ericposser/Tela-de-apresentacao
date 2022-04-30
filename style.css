@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+*{
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #280b37 16.62%, #be1333 85.61%);
+}
+
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.cabeçalhomenu{
+    display: flex;
+    gap: 30px;
+}
+
+.cabeçalhomenuitem{
+    color: #ebd9e6;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #280b37;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.cabeçalhomenuitem:hover{
+    background-color:#600e34 ;
+}
+
+.cabeçalhologo{
+    color: #ebd9e6 ;
+}
+
+.conteudo{
+    border-top: 0.4px solid #ebd9e6;
+}
+
+.conteudoprincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudoprincipalescrito{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.conteudoprincipalescritotitulo{
+    font-weight: 400;
+    color:#ebd9e6;
+    font-size: 60px;
+}
+
+.conteudoprincipalescritosubtitulo{
+    font-weight: 400;
+    font-size: 20px;
+    color: #ebd9e6;
+}
+
+
+
+.botao:hover{
+    background-color: #2f2325;
+}
+
+.conteudoprincipalimagem{
+    height: 540px;
+}
+
+.cabeçalhomenuitem2{
+    color: black;
+    font-size: 20px;
+    background-color: #be1333;
+    padding: 20px;
+    border-radius: 20px;
+    width: 25%;
+    text-align: center;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.cabeçalhomenuitem2:hover{
+    background-color: #600e34;
+}
+
